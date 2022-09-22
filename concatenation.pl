@@ -1,0 +1,10 @@
+$dna ="atgacggtgcaaaacgcaccatttatcagaaggccgtatggaaaacttctgataagttat
+attattgaaacaaaaagcgtttcaataatcgaaggtattattgaaacaaaaagcagaaag
+catgtctcaataatcataggtattattgaaacaaaaagcagaaagcatgtctcaataatc
+ataggtattattgaaacaaaaagcagaaagcatgtctcaataatcgaaggtattattgaa
+atggaaagcatggttcaataa";
+$aminoacid ="MTVQNAPFIRRPYGKLLISYIIETKSVSIIEGIIETKSRKHVSIIIGIIETKSRKHVSII
+IGIIETKSRKHVSIIEGIIEMESMVQ";
+$combined_sequence=$dna.$aminoacid;
+print"$combined_sequence\n";
+exit;
